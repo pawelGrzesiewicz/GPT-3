@@ -1,5 +1,5 @@
 import React from 'react';
-import './blog.css';
+import './whatGPT3.css';
 
 function WhatGPT3() {
   return (
