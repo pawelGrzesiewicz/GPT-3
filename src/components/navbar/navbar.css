@@ -1,4 +1,7 @@
 .gpt3__navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,6 +100,11 @@
 
 .gpt3__navbar-menu_container-links-sign {
     display: none;
+}
+
+.is-moved {
+    background-color: var(--color-bg);
+    opacity: 96%;
 }
 
 @media screen and (max-width: 1050px) {

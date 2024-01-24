@@ -7,10 +7,9 @@ import './App.css';
 
 const App = () => (
   <div className="App">
-    <div className="gradient__bg">
       <Navbar />
-      <Header />
-    </div>
+    <Header />
+    <div className='content'>
     <Brand />
     <WhatGPT3 />
     <Features />
@@ -18,6 +17,7 @@ const App = () => (
     <CTA />
     <Blog />
     <Footer />
+    </div>
   </div>
 );
 
